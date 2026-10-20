@@ -6,6 +6,7 @@ import reserva.exception.PersistenceException;
 import reserva.exception.ReservationAlreadyExistsException;
 import reserva.modelo.Reserva;
 import reserva.output.ReservationRepository;
+import reserva.usecase.CreateReservationUseCase;
 
 import java.time.LocalDate;
 import java.util.UUID;
